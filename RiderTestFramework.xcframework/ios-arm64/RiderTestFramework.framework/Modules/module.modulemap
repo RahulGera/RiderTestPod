@@ -1,0 +1,11 @@
+framework module RiderTestFramework {
+  umbrella header "RiderTestFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module RiderTestFramework.Swift {
+    header "RiderTestFramework-Swift.h"
+    requires objc
+}
